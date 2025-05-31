@@ -14,7 +14,12 @@ import { ChatState } from "../Context/ChatProvider";
 import "./styles.css";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 
-const ENDPOINT = "http://localhost:5000";
+// const ENDPOINT = "http://localhost:5000";
+const ENDPOINT =
+  window.location.hostname === "localhost"
+    ? "http://localhost:5000"
+    : window.location.origin;
+  
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {

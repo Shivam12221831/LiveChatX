@@ -58,11 +58,20 @@ const port = process.env.PORT || 5000;
 
 const server = app.listen(port, () => console.log(`Server started on port ${port}`));
 
+// const io = require("socket.io")(server, {
+//     pingTimeout: 60000,
+//     cors: {
+//         origin: "http://localhost:3000",
+//     },
+// });
+
 const io = require("socket.io")(server, {
-    pingTimeout: 60000,
-    cors: {
-        origin: "http://localhost:3000",
-    },
+  pingTimeout: 60000,
+  cors: {
+    origin: true,
+    // methods: ["GET", "POST", "OPTIONS"], // optional but safe
+    credentials: true,
+  },
 });
 
 io.on("connection", (socket) => {
