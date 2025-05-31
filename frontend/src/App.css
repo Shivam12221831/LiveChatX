@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  background-image: url("./chat_dark_background.svg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+/* Hide Chrome native eye icon */
+input::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+/* Hide Edge's clear and reveal buttons */
+input::-ms-reveal,
+input::-ms-clear {
+  display: none !important;
+}
