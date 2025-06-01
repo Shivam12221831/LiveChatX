@@ -82,8 +82,7 @@ LiveChatX/
 Setup Environment Variables
 Create a .env in /server folders.
 
-Install dependencies
-
+## Install dependencies
 bash
 cd frontend && npm install
 Main folder(LiveChatX) -> npm install
@@ -94,7 +93,8 @@ node /backend/server.js
 cd frontend && npm start
 
 
-🔐 Environment Variables
+## 🔐 Environment Variables
+
 Main Folder(LiveChatX) -> .env
 
 PORT=5000
@@ -104,7 +104,7 @@ MONGO_URI=your_mongodb_url
 JWT_SECRET=your_jwt_secret
 
 
-🧠 Learning Highlights
+## 🧠 Learning Highlights
 
 Mastered WebSocket (Socket.IO) for bidirectional real-time communication
 
@@ -117,7 +117,7 @@ React state management using Context API
 Live typing indicator via socket events
 
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
 Shivam Singh
 
@@ -127,5 +127,6 @@ Shivam Singh
 
 🌐 Portfolio - https://portfolio-shivam12221831s-projects.vercel.app/
 
-⭐️ Give it a Star
+
+**⭐️ Give it a Star
 If you like the project, don’t forget to ⭐️ this repo!
