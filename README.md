@@ -41,20 +41,35 @@ A **real-time chat application** built with the **MERN Stack + Socket.IO**, offe
 
 LiveChatX/
 ├── frontend/ # React frontend
+
 │ └── src/
+
 │ └── components/
+
 │ └── context/
+
 │ └── pages/
+
 │ └── App.js
+
 ├── backend/ # Express backend
+
 │ ├── config/
+
 │ ├── controllers/
+
 │ ├── middleware/
+
 │ ├── models/
+
 │ ├── routes/
+
 │ ├── socket.js
+
 │ └── server.js
+
 ├── .env
+
 └── README.md
 
 ---
@@ -80,21 +95,32 @@ cd frontend && npm start
 
 🔐 Environment Variables
 Main Folder(LiveChatX) -> .env
+
 PORT=5000
+
 MONGO_URI=your_mongodb_url
+
 JWT_SECRET=your_jwt_secret
 
 🧠 Learning Highlights
+
 Mastered WebSocket (Socket.IO) for bidirectional real-time communication
+
 Implemented secure JWT-based authentication
+
 Scalable REST API structure
+
 React state management using Context API
+
 Live typing indicator via socket events
 
 🙋‍♂️ Author
 Shivam Singh
+
 🧑‍💻 Full Stack Developer | B.Tech CSE
+
 📫 Connect on LinkedIn - www.linkedin.com/in/shivam-singh-s05
+
 🌐 Portfolio - https://portfolio-shivam12221831s-projects.vercel.app/
 
 ⭐️ Give it a Star
