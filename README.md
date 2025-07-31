@@ -35,11 +35,12 @@ A **real-time chat application** built with the **MERN Stack + Socket.IO**, offe
 - LiveChatX: Render
 - Database: MongoDB Atlas  
 
----
+
 
 ## 🧩 Folder Structure
 
 LiveChatX/
+
 ├── frontend/ # React frontend
 
 │ └── src/
@@ -72,7 +73,7 @@ LiveChatX/
 
 └── README.md
 
----
+
 
 ## 📦 Getting Started Locally
 
@@ -81,6 +82,7 @@ LiveChatX/
    git clone https://github.com/Shivam12221831/LiveChatX.git
 Setup Environment Variables
 Create a .env in /server folders.
+
 
 ## Install dependencies
 bash
@@ -93,6 +95,7 @@ node /backend/server.js
 cd frontend && npm start
 
 
+
 ## 🔐 Environment Variables
 
 Main Folder(LiveChatX) -> .env
@@ -102,6 +105,7 @@ PORT=5000
 MONGO_URI=your_mongodb_url
 
 JWT_SECRET=your_jwt_secret
+
 
 
 ## 🧠 Learning Highlights
@@ -117,6 +121,7 @@ React state management using Context API
 Live typing indicator via socket events
 
 
+
 ## 🙋‍♂️ Author
 
 Shivam Singh
@@ -126,6 +131,7 @@ Shivam Singh
 📫 Connect on LinkedIn - www.linkedin.com/in/shivam-singh-s05
 
 🌐 Portfolio - https://portfolio-shivam12221831s-projects.vercel.app/
+
 
 
 ## 
