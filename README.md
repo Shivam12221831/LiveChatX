@@ -3,7 +3,7 @@
 Deploy Link : https://livechatx.onrender.com/
 
 A **real-time chat application** built with the **MERN Stack + Socket.IO**, offering seamless 1-on-1 and group messaging, typing indicators, user authentication, and an elegant UI.
----
+
 
 ## 🚀 Features
 
